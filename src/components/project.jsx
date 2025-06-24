@@ -1,7 +1,8 @@
-// import React from 'react';
-import Projectpic from '../assets/download0.jpg';
+import React from 'react';
+// import Projectpic from '../assets/download0.jpg';
+import Projectpic from '../assets/download0.png';
 import Projectpic1 from '../assets/download1.jpg';
-import Projectpic2 from '../assets/inventory.jpeg';
+import Projectpic2 from '../assets/inventory.png';
 import Projectpic3 from '../assets/pos.jpeg';
 
 export default function Project() {
@@ -18,11 +19,11 @@ export default function Project() {
           <div className='flex flex-col md:flex-row items-center'>
             <div className='p-6'>
               <h2 className='uppercase font-semibold tracking-wide text-sm text-indigo-500'>
-                Hospital Management System
+                Real state Project
               </h2>
-              <a href="#" className='text-base font-medium'>Subheading</a>
+              <a href="#" className='text-base font-medium'>SUBHEADING</a>
               <p className='mt-2 text-slate-500'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, enim est accusantium soluta modi a, consequuntur repellat eos numquam.
+                the project is a real estate management system that allows users to manage properties, clients, and transactions efficiently.
               </p>
             </div>
             <div className='p-4'>
@@ -49,9 +50,9 @@ export default function Project() {
               <h2 className='uppercase font-semibold tracking-wide text-sm text-indigo-500'>
                 School Management System
               </h2>
-              <a href="#" className='text-base font-medium'>Subheading</a>
+              <a href="#" className='text-base font-medium'>SUBHEADING</a>
               <p className='mt-2 text-slate-500'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, enim est accusantium soluta modi a, consequuntur repellat eos numquam.
+                the school management system is a comprehensive software solution designed to streamline administrative tasks, enhance communication, and improve overall efficiency in educational institutions.
               </p>
             </div>
           </div>
@@ -67,16 +68,16 @@ export default function Project() {
           <div className='flex flex-col md:flex-row items-center'>
             <div className='p-6'>
               <h2 className='uppercase font-semibold tracking-wide text-sm text-indigo-500'>
-                Inventory Management System
+                smart city dashboard
               </h2>
-              <a href="#" className='text-base font-medium'>Subheading</a>
+              <a href="#" className='text-base font-medium'>SUBHEADING  </a>
               <p className='mt-2 text-slate-500'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, enim est accusantium soluta modi a, consequuntur repellat eos numquam.
+                the smart city dashboard is a web-based application that provides real-time data on various aspects of a city, including traffic, weather, and local events. 
               </p>
             </div>
             <div className='p-4'>
               <img
-                className='rounded-full w-40 h-40 object-cover'
+                className='rounded-full w-50 h-40 object-cover'
                 src={Projectpic2}
                 alt="Inventory"
               />
@@ -96,11 +97,11 @@ export default function Project() {
             </div>
             <div className='p-6'>
               <h2 className='uppercase font-semibold tracking-wide text-sm text-indigo-500'>
-                POS Management System
+                Brt price table
               </h2>
-              <a href="#" className='text-base font-medium'>Subheading</a>
+              <a href="#" className='text-base font-medium'>SUBHEADING</a>
               <p className='mt-2 text-slate-500'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, enim est accusantium soluta modi a, consequuntur repellat eos numquam.
+                the project is a web-based application that provides real-time information on bus prices, routes, and schedules
               </p>
             </div>
           </div>
